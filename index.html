@@ -1,1 +1,31 @@
-<h1>World, Hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>videah.xyz</title>
+	<link rel="stylesheet" href="assets/css/videah.css">
+	<link rel='stylesheet' href='https://cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css'>
+	<script src="assets/js/terminal.js"></script>
+</head>
+<body>
+	<div id="terminal" class="terminal" onclick="focusOnClick('input')">
+		<!-- <p>Type 'help' to get started.</p> -->
+		<div id='intro'>
+			<img id='logo' src='assets/images/logo.png'>
+			<p>Hello, I am <strong>videah</strong>. </p>
+			<p>This is my personal site, feel free to look around.<p>
+			<p>Run the command <strong>help</strong> to get a list of commands.</p>
+		</div>
+		<p class="hidden">
+			<span class="prompt" id="hostname">guest@videah.xyz</span>
+			<span class="prompt" id="hblock"></span>
+			<span class="prompt" id="fs">&sim;</span>
+			<span class="prompt" id="fsblock"></span>
+			<!-- <span class="prompt" id="padding">d</span> -->
+			<span class="prompt">&#10;</span>
+			<span contenteditable="true" class="input"> </span>
+		</p>
+	</div>
+	<script src="assets/js/commands.js"></script>
+</body>
+</html>
