@@ -80,6 +80,8 @@ commands.cowsay = function(args) {
 	input = input.replace(/,/g , " ");
 	input = input.trim();
 
+	if (!input) {return ""};
+
 	var output = "<p>&nbsp;" +
 		"_".repeat(input.length + 2) +
 	"&nbsp;</p>" +
