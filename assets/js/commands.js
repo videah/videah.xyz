@@ -1,9 +1,9 @@
 var commands = {};
 var social = {
-	github:'https://github.com/VideahGams',
+	github:'https://github.com/videah',
 	twitter:'https://twitter.com/videah_',
 	keybase:'https://keybase.io/videah',
-	steam:'https://steamcommunity.com/id/videahgams',
+	steam:'https://steamcommunity.com/id/videah',
 	blog:'https://blog.videah.xyz'
 }
 
@@ -45,7 +45,7 @@ commands.social = function() {
 		"<ul>" +
 		"<li><strong>Email</strong> - email@videah.xyz</li>" +
 		"<li><strong>IRC</strong> - nick is videah, i lurk freenode and OFTC</li>" +
-		"<li><strong>Bitcoin</strong> - 1fJCHBDweNz7bqaaQ1Q7uNBV4ZcKY6XB8 - give me cyber money</li>" +
+		"<li><strong>Bitcoin</strong> - 1Jqq96HVZ2AKijjxNfYi2SaKaW78keWEMH - give me cyber money</li>" +
 		"<li><strong>Signal</strong> - email me for it</li>" +
 		"</ul>" +
 		"</div>";
