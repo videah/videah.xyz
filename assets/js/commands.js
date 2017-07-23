@@ -43,7 +43,7 @@ commands.social = function() {
 		"</ul>" +
 		"Here's some other social stuff." +
 		"<ul>" +
-		"<li><strong>Email</strong> - email@videah.xyz</li>" +
+		"<li><strong>Email</strong> - videah@selfish.systems</li>" +
 		"<li><strong>IRC</strong> - nick is videah, i lurk freenode and OFTC</li>" +
 		"<li><strong>Bitcoin</strong> - 1Jqq96HVZ2AKijjxNfYi2SaKaW78keWEMH - give me cyber money</li>" +
 		"<li><strong>Signal</strong> - email me for it</li>" +
