@@ -1,0 +1,63 @@
+==================================================================
+https://keybase.io/videah
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://videah.xyz
+  * I am videah (https://keybase.io/videah) on keybase.
+  * I have a public key with fingerprint 551D 46A0 8B7A EDD9 2557  6B26 1F4B 1F6D 26EE 2AF3
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0113b1641b9ae03976c7902cdc64f3f7f485c20353360d767bb604a9d6342348a39c0a",
+      "fingerprint": "551d46a08b7aedd925576b261f4b1f6d26ee2af3",
+      "host": "keybase.io",
+      "key_id": "1f4b1f6d26ee2af3",
+      "kid": "0113b1641b9ae03976c7902cdc64f3f7f485c20353360d767bb604a9d6342348a39c0a",
+      "uid": "1bbafc1e01df7a90eadd626f43b7ed19",
+      "username": "videah"
+    },
+    "service": {
+      "hostname": "videah.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1501417240,
+  "expire_in": 157680000,
+  "prev": "7808917840318ec0888d7711ad661df5e03dad4dcd46d0913d1f342d67a00630",
+  "seqno": 49,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUj1oFEEY3WhEPBCEgBYSogNJIUeY2Zmd2V2ClaYR7Y5o4zGz30xuuGT33N27
+5BJOUooWprD3p7RJq7WFgoJYKFwRz1YhWqgoKuJsNIVg6TTDvHnvfd/3ZjYP7/dq
+E1PnppZn3p/6OPb0rfIuDZ4fX0cqgz6K11Fb7256CXRRNtsWUIwwIVQRzoiKpMY0
+EjwREfYTSDgz1AjDwiDxMQ0o5RgEF0pxzGQEnDKfslDSKMES1ZGx6aLOO7lNS2cb
+BAQYlzhUQmqAyA8CwZXPiWGKGA4+19qXhjphKysqhWtOyULP2sxh7tDcbe8f/P/c
+d/d3HaWkSYjGBIyQEdYSgPvcMKqEBhJVxELnqVzWjt2zoGULDerIYT2b6CrWao6/
+7mdX+2tO18mzMkuyJYe3yrJTxJWu7Hcq4opWzT8WTWVTcBk6RU/nhc1SFBPHTEpb
+eZIAE0aEz3Ad6dWOzXXTVgwXa4jdquronrMUIQ4jIkKGaYOEOsFhGIIQhEjg3E0X
+uLRAAoPEPRDgiFAgxmUCXEiMOcWomupKmqGYRa5RuehMC7uYyrKbazSoXeuOexM1
+b/LoyfHG5PydG2s7w+mF9szevzuwr/p0Xu3QkT3k2Ocx7+u3YiW++WH7x/mzr+zt
+Zw9en97Iz2zNiRP3797bfDPa8H5Oby+82PpEr1/8Mpq7cHUwfNIY7jweHXz5/fKj
+Ww9H7+Z/AQ==
+=5XKk
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/videah
+
+==================================================================
+
