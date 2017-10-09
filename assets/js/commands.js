@@ -47,6 +47,7 @@ commands.social = function() {
 		"<li><strong>IRC</strong> - nick is videah, i lurk freenode and OFTC</li>" +
 		"<li><strong>Bitcoin</strong> - 13FwWmbkX1TGeATpin96P7p9UcjyuymGeY - give me cyber money</li>" +
 		"<li><strong>Signal</strong> - email me for it</li>" +
+		"<li><strong>Matrix</strong> - @videah:selfish.systems" +
 		"</ul>" +
 		"</div>";
 	return output;
