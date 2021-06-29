@@ -65,7 +65,6 @@ var Terminal = (function() {
     };
 
     // Terminal functions
-
     self.init = function(elem, commands) {
         self.commands = commands;
     
@@ -86,6 +85,12 @@ var Terminal = (function() {
 
                 event.preventDefault(true);
                 return false;
+            } else if (event.ctrlKey && event.keyCode == 76) {
+                // Clears terminal with Ctrl + L key combination
+                var prompt = event.target;
+                event.preventDefault();
+                terminal.innerHTML = "";
+                resetPrompt(elem, prompt);
             }
         });
     
@@ -102,13 +107,17 @@ var Terminal = (function() {
 
             var input = prompt.textContent.split(" ");
             input[0] = input[0].trim();
-            
-            if(input[0] && input[0] in self.commands) {
-                runCommand(elem, input[0], input);
-            } else {
-                terminal.innerHTML += "<span>bash: " + input[0] + ": command not found </span>";
-            }
 
+            if (input[0] && input[0] == "clear") {
+                // Have to handle the clear command here for stupid javascript reasons
+                terminal.innerHTML = "";
+            } else {
+                if(input[0] && input[0] in self.commands) {
+                    runCommand(elem, input[0], input);
+                } else {
+                    terminal.innerHTML += "<span>bash: " + input[0] + ": command not found </span>";
+                }
+            }
             resetPrompt(elem, prompt);
             event.preventDefault();
         });

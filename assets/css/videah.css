@@ -38,7 +38,7 @@ body {
 }
 
 #terminal:hover {
-	border-color: #0087af;
+	border-color: #b73341;
 }
 
 #terminal .input {
@@ -60,11 +60,11 @@ body {
 
 #hostname {
 	color: white;
-	background-color: #0087af;
+	background-color: #b73341;
 }
 
 #hblock {
-	color: #0087af;
+	color: #b73341;
 	background-color: #3a3a3a;
 }
 
@@ -85,13 +85,31 @@ body {
 
 #intro {
 	text-align: center;
-	padding-top: 50px;
+	padding-top: 53px;
 	padding-bottom: 40px;
 	width: 100%
 }
 
+#intro-text {
+    padding-top: 25px;
+}
+
 #logo {
-	padding-bottom: 25px;
+    background: #d24a4a;
+    border-radius: 50%;
+    width: 184px;
+    height: 184px;
 	display: block;
 	margin: auto auto;
+}
+
+#credit {
+    float: right;
+    padding-right: 4px;
+    padding-top: 2px;
+    color: #646464;
+}
+
+#credit > a {
+    color: #d24a4a;
 }
