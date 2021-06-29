@@ -1,10 +1,11 @@
 var commands = {};
 var social = {
-	github:'https://github.com/videah',
-	twitter:'https://twitter.com/videah_',
-	keybase:'https://keybase.io/videah',
-	steam:'https://steamcommunity.com/id/videah',
-	blog:'https://blog.videah.xyz'
+	'github': 'https://github.com/videah',
+	'twitter': 'https://twitter.com/videah_',
+	'keybase': 'https://keybase.io/videah',
+	'steam': 'https://steamcommunity.com/id/videah',
+//	blog:'https://blog.videah.xyz',
+	'ko-fi': 'https://ko-fi.com/videah',
 }
 
 commands.help = function() {
