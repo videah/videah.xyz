@@ -6,6 +6,7 @@ var social = {
 	'steam': 'https://steamcommunity.com/id/videah',
 //	blog:'https://blog.videah.xyz',
 	'ko-fi': 'https://ko-fi.com/videah',
+	'fursona': 'https://videah.xyz/ref',
 }
 
 commands.help = function() {
@@ -37,13 +38,14 @@ commands.intro = function() {
 
 commands.social = function() {
 	var output = "<div>" +
-		"Enter one of these commands to redirect to my social media." +
+		"Enter one of these commands to redirect to one of my various places on the internet." +
 		"<ul>" +
 		"<li><strong>github</strong> - my github where i put my projects (including this site)</li>" +
 		"<li><strong>twitter</strong> - my stream of consciousness and furry art lol</li>" +
 		"<li><strong>keybase</strong> - if you want to send me classified docs or some shit?</li>" +
 		"<li><strong>steam</strong> - hey gamers.</li>" +
 		"<li><strong>ko-fi</strong> - if you want to buy me a cup of tea (coffee is gross!)" +
+		"<li><strong>fursona</strong> - look at my handsome boy (ref sheet by @flynxy)</li>" +
 //		"<li><strong>blog</strong> - my dumb blog that i rarely post to.</li>" +
 		"</ul>" +
 		"Here's some other social stuff." +
