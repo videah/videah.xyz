@@ -4,9 +4,9 @@ var social = {
 	'twitter': 'https://twitter.com/videah_',
 	'keybase': 'https://keybase.io/videah',
 	'steam': 'https://steamcommunity.com/id/videah',
-//	blog:'https://blog.videah.xyz',
+	'blog': 'https://blog.videah.net',
 	'ko-fi': 'https://ko-fi.com/videah',
-	'fursona': 'https://videah.xyz/ref',
+	'fursona': 'https://videah.net/ref',
 }
 
 commands.help = function() {
@@ -46,7 +46,7 @@ commands.social = function() {
 		"<li><strong>steam</strong> - hey gamers.</li>" +
 		"<li><strong>ko-fi</strong> - if you want to buy me a cup of tea (coffee is gross!)" +
 		"<li><strong>fursona</strong> - look at my handsome boy (ref sheet by @flynxy)</li>" +
-//		"<li><strong>blog</strong> - my dumb blog that i rarely post to.</li>" +
+		"<li><strong>blog</strong> - my dumb blog that i post to when i have motivation (never)</li>" +
 		"</ul>" +
 		"Here's some other social stuff." +
 		"<ul>" +
